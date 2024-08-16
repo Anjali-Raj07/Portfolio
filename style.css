@@ -191,7 +191,9 @@
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     font-size: 1em;
   }
-  
+  .sendMsg{
+    padding: 25px;
+  }
   pre {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -11239,6 +11241,9 @@
     margin: 0 auto 150px;
     z-index: 99;
     background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
   }
   
   .contact .form {

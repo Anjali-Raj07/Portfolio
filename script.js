@@ -33,8 +33,7 @@ $(document).ready(function(){
 
 
 document.getElementById('downloadCvBtn').addEventListener('click', function() {
-    const cvFilePath = 'assets/cv/cv.pdf';
-    
+    const cvFilePath = 'public_html/assets/cv/ANJALIRAJT-CV.pdf';
     const tempLink = document.createElement('a');
     tempLink.href = cvFilePath;
 
