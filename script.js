@@ -45,7 +45,19 @@ document.getElementById('downloadCvBtn').addEventListener('click', function() {
 
     document.body.removeChild(tempLink);
 });
+document.getElementById('downloadCVBtn').addEventListener('click', function() {
+    const cvFilePath = 'public_html/assets/cv/ANJALIRAJT-CV.pdf';
+    const tempLink = document.createElement('a');
+    tempLink.href = cvFilePath;
 
+    tempLink.download = 'Anjali_Raj_T_CV.pdf';
+
+    document.body.appendChild(tempLink);
+
+    tempLink.click();
+
+    document.body.removeChild(tempLink);
+});
 
 // me
 const slides = document.querySelectorAll('.project-slide');

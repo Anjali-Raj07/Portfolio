@@ -193,6 +193,8 @@
   }
   .sendMsg{
     padding: 25px;
+    display: flex !important;
+    justify-content: center !important;
   }
   pre {
     margin-top: 0;
@@ -11227,8 +11229,9 @@
     box-shadow: 0 0 5px rgba(108, 117, 125, 0.3);
   }
   
-  .contact {
-    position: relative;
+  .contact {  
+     background: #fff; 
+    /* position: relative;
     border-radius: 0.3rem;
     border: 1px solid 1px;
     box-shadow: 1px 2px 6px rgba(173, 181, 189, 0.5);
@@ -11240,12 +11243,21 @@
     max-width: 1000px;
     margin: 0 auto 150px;
     z-index: 99;
-    background: #fff;
-    display: flex;
+ 
+    /* display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 25px; */
+  } 
+  .contact-infos{
+    display: grid !important;
+    grid-template-columns: repeat(3,1fr) !important;
+  } 
+  .contactInfo{
+height: 62px !important;
   }
-  
+  .btnwidth{
+    width: 200px !important;
+  }
   .contact .form {
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
@@ -11438,7 +11450,7 @@
   }
   
   .page-footer .socials {
-    max-width: 210px;
+    max-width: 125px;
     margin-left: auto;
   }
   
@@ -11760,7 +11772,8 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
-    top: 63%;
+    /* top: 63%; */
+    bottom: -28px;
     transform: translateY(-50%);
     left: 0;
     right: 0;
