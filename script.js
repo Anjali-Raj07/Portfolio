@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 
 document.getElementById('downloadCvBtn').addEventListener('click', function() {
-    const cvFilePath = '/assets/cv/AnjaliRajT.CV.pdf';
+    const cvFilePath = '/public_html/assets/cv/AnjaliRajT.cv.pdf';
     const tempLink = document.createElement('a');
     tempLink.href = cvFilePath;
 
@@ -32,7 +32,7 @@ document.getElementById('downloadCvBtn').addEventListener('click', function() {
     document.body.removeChild(tempLink);
 });
 document.getElementById('downloadCVBtn').addEventListener('click', function() {
-    const cvFilePath = '/assets/cv/AnjaliRajT-CV.pdf';
+    const cvFilePath = '/public_html/assets/cv/AnjaliRajT.cv.pdf';
     const tempLink = document.createElement('a');
     tempLink.href = cvFilePath;
 
