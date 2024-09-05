@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 
 document.getElementById('downloadCvBtn').addEventListener('click', function() {
-    const cvFilePath = 'assets/cv/AnjaliRajT.cv.pdf';
+    const cvFilePath = '\assets\cv\AnjaliRajT.cv.pdf';
     
     const tempLink = document.createElement('a');
     tempLink.href = cvFilePath;
