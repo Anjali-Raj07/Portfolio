@@ -1,18 +1,4 @@
-/*!
-=========================================================
-* Steller Landing page
-=========================================================
 
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// smooth scroll
 $(document).ready(function(){
 	$(".nav-link").on('click', function(event) {
 
@@ -33,11 +19,11 @@ $(document).ready(function(){
 
 
 document.getElementById('downloadCvBtn').addEventListener('click', function() {
-    const cvFilePath = 'public_html/assets/cv/ANJALIRAJT-CV.pdf';
+    const cvFilePath = 'public_html/assets/cv/AnjaliRajT.CV.pdf';
     const tempLink = document.createElement('a');
     tempLink.href = cvFilePath;
 
-    tempLink.download = 'Anjali_Raj_T_CV.pdf';
+    tempLink.download = 'AnjaliRajT.CV.pdf';
 
     document.body.appendChild(tempLink);
 

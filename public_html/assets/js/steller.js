@@ -1,4 +1,5 @@
 
+// smooth scroll
 $(document).ready(function(){
 	$(".nav-link").on('click', function(event) {
 
@@ -17,21 +18,6 @@ $(document).ready(function(){
     });
 });
 
-
-document.getElementById('downloadCvBtn').addEventListener('click', function() {
-    const cvFilePath = '\assets\cv\AnjaliRajT.cv.pdf';
-    
-    const tempLink = document.createElement('a');
-    tempLink.href = cvFilePath;
-
-    tempLink.download = 'Anjali_Raj_T_CV.pdf';
-
-    document.body.appendChild(tempLink);
-
-    tempLink.click();
-
-    document.body.removeChild(tempLink);
-});
 
 
 // me
