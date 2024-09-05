@@ -32,11 +32,11 @@ document.getElementById('downloadCvBtn').addEventListener('click', function() {
     document.body.removeChild(tempLink);
 });
 document.getElementById('downloadCVBtn').addEventListener('click', function() {
-    const cvFilePath = 'public_html/assets/cv/ANJALIRAJT-CV.pdf';
+    const cvFilePath = 'public_html/assets/cv/AnjaliRajT-CV.pdf';
     const tempLink = document.createElement('a');
     tempLink.href = cvFilePath;
 
-    tempLink.download = 'Anjali_Raj_T_CV.pdf';
+    tempLink.download = 'AnjaliRajT.CV.pdf';
 
     document.body.appendChild(tempLink);
 
